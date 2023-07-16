@@ -1,0 +1,66 @@
+.wrap {
+    display: flex;
+    width: 100%;
+}
+
+.child {
+    width: 50%;
+}
+
+.size {
+    margin-bottom:5%;
+}
+
+.height {
+    height: 300px;
+}
+
+.button7 {
+    text-align: center;
+    display: block;
+    margin-top:7%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(13,110,253);
+}
+a.button7:hover {
+    background: rgb(7, 55, 127);
+    color: white;
+}
+
+a.button7:active {
+  background: rgb(33,147,90);
+}
+
+.form {
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 10%;
+}
+
+.button8 {
+    text-align: center;
+    display: block;
+    margin-top:7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(13,110,253);
+}
+a.button8:hover {
+    background: rgb(7, 55, 127);
+    color: white;
+}
+
+a.button8:active {
+  background: rgb(33,147,90);
+}
