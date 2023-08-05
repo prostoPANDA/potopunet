@@ -64,3 +64,17 @@ a.button8:hover {
 a.button8:active {
   background: rgb(33,147,90);
 }
+
+div.inrowparent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+div.inrowchild
+{
+  background: orange;
+  width: 50%;
+  padding: 10px;
+  margin-right: 5px;
+}
