@@ -16,67 +16,28 @@
 }
 
 .button7 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     display: block;
     margin-top:7%;
     margin-left: 40%;
     margin-right: 40%;
-    font-weight: 700;
+    font-weight: 500;
     color: white;
     text-decoration: none;
     padding: .8em 1em calc(.8em + 3px);
     border-radius: 3px;
-    background: rgb(13,110,253);
+    background: #46963f;
 }
 a.button7:hover {
-    background: rgb(7, 55, 127);
     color: white;
 }
 
-a.button7:active {
-  background: rgb(33,147,90);
-}
 
 .form {
     margin-left:20%;
     margin-right:20%;
     margin-top: 10%;
-}
-
-.button8 {
-    text-align: center;
-    display: block;
-    margin-top:7%;
-    margin-left: 30%;
-    margin-right: 30%;
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-    padding: .8em 1em calc(.8em + 3px);
-    border-radius: 3px;
-    background: rgb(13,110,253);
-}
-a.button8:hover {
-    background: rgb(7, 55, 127);
-    color: white;
-}
-
-a.button8:active {
-  background: rgb(33,147,90);
-}
-
-div.inrowparent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-div.inrowchild
-{
-  background: orange;
-  width: 50%;
-  padding: 10px;
-  margin-right: 5px;
 }
 
 .exmpl {
@@ -102,10 +63,16 @@ div.inrowchild
     margin-left: auto;
 }
 
-@media (min-width:576px){.container-1{max-width:540px}}
-@media (min-width:768px){.container-1{max-width:720px}}
-@media (min-width:992px){.container-1{max-width:960px}}
-@media (min-width:1200px){.container-1{max-width:1140px}}
+@media (min-width:576px) {
+
+    .container-1 {
+        max-width: 540px;
+    }
+
+}
+@media (min-width:768px){.container-1{max-width:2000px}}
+@media (min-width:992px){.container-1{max-width:2000px}}
+@media (min-width:1200px){.container-1{max-width:2000px}}
 @media (min-width:1400px){.container-1{max-width:2000px}}
 
 
@@ -145,4 +112,89 @@ li{
   display: inline-block;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+	list-style-type: none;
+	counter-reset: num;
+	padding: 15px 0 5px 0;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+ol li {
+	position: relative;
+	margin-top: 5%;
+	padding: 0 0 10px 0;
+	font-size: 2em;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+ol li:before {
+	content: counter(num);
+	counter-increment: num;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: -60px;
+	width: 50px;
+	color: #46963f;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    margin-top:15%;
+    color: black;
+    font-weight:600;
+    font-size:2.8em;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    h1.logo {
+        font-size: 1em;
+    }
+
+    .monts {
+        font-size: 0.8em;
+    }
+
+    .button7 {
+        font-size: 0.5em;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    ol li {
+        font-size: 0.8em;
+    }
+
+    .counter-l {
+        font-size: 2em;
+    }
+
+    .counter-n {
+        font-size: 5em;
+    }
+    .res {
+        margin-top: 15%;
+        margin-bottom: 0%;
+    }
+
+    h3.end {
+        font-size: 0.8em;
+    }
+
+    .wrap {
+        margin-top: 0%;
+        height: 30px;
+    }
+
+    .height {
+        height: 150px;
+    }
 }
