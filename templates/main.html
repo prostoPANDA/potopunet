@@ -16,12 +16,11 @@
 <body>
     <div style="background-color:#46963f">
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                <h1 class="logo" align="left"><span class="potop">ПОТОПУ</span><span class="net">НЕТ</span></h1>
+        <header class="d-flex flex-wrap py-3">
+            <a href="/" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none wide">
+                <img src="{{ url_for('static', filename='img/logo.png')}}" class="logo">
             </a>
-            <h2 class="monts" style="color:white; margin-top:9px">+7 (914) 343-01-10</h2>
+            <h2 class="monts number" style="color:white">+7 (914) 343-01-10</h2>
         </header>
     </div>
     </div>
@@ -82,7 +81,7 @@
     <div class="container res">
         <div class="height">
             <h1 class="monts" align="center" style="font-weight:400">Остались вопросы?</h1>
-            <h5 class="monts" align="center" style="font-weight:300">Звоните по номеру телефона +7 (914) 343-01-10 или оставьте заявку:</h5>
+            <h5 class="monts" align="center" style="font-weight:300">Звоните по номеру телефона <span style="font-weight: 600">+7 (914) 343-01-10</span> или оставьте заявку:</h5>
             <a class="button7" style="margin-top:5%" href="form">Оставить заявку</a>
         </div>
     </div>

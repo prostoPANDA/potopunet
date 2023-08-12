@@ -57,7 +57,6 @@ a.button7:hover {
 }
 
 .container-1 {
-
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -82,19 +81,6 @@ a.button7:hover {
     font-weight: 500;
 }
 
-h1.logo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5em;
-    font-weight: 500;
-}
-
-span.potop {
-    color: #0057fa;
-}
-
-span.net {
-    color: #cc0605;
-}
 
 span.num {
     color:#46963f;
@@ -121,6 +107,7 @@ ol {
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 }
+
 ol li {
 	position: relative;
 	margin-top: 5%;
@@ -151,13 +138,29 @@ ol li:before {
     font-size:2.8em;
 }
 
+.counter-l {
+    font-size: 4em;
+}
+
+.counter-n {
+    font-size: 8em;
+}
+
+.res {
+    margin-top:10%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+h2.number {
+    margin-top: 31px;
+}
 
 
 @media screen and (max-width: 576px) {
-
-    h1.logo {
-        font-size: 1em;
-    }
 
     .monts {
         font-size: 0.8em;
@@ -180,9 +183,9 @@ ol li:before {
     .counter-n {
         font-size: 5em;
     }
+
     .res {
         margin-top: 15%;
-        margin-bottom: 0%;
     }
 
     h3.end {
@@ -196,5 +199,18 @@ ol li:before {
 
     .height {
         height: 150px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .wide {
+        width: 60%;
+        height: 50px;
+    }
+
+    h2.number {
+        margin-top: 20px;
     }
 }
